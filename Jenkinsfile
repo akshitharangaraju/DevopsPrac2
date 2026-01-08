@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') { 
             steps { 
                 git branch: 'main', 
-                    url: 'file:///PATH/TO/YOUR/pipeline-git-repo'  // Update path 
+                    url: 'https://github.com/akshitharangaraju/DevopsPrac2.git'  // Update path 
                 echo 'Repository cloned successfully' 
             } 
         } 
